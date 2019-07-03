@@ -1,0 +1,10 @@
+[requires]
+libpq/10.4@bincrafters/stable
+
+[options]
+libpq:shared=False
+libpq:with_zlib=False
+libpq:with_openssl=False
+
+[generators]
+cmake
